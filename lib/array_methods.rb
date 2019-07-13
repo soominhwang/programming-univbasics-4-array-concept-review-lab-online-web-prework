@@ -20,8 +20,13 @@ def find_max_value(array)
   return curr_max
 end
 
-
-
 def find_min_value(array)
-  # Add your solution here
+  curr_min = array[0]
+
+  array.length.times do |index|
+    if curr_min > array[index]
+      curr_min = array[index]
+    end
+  end
+  return curr_min
 end
