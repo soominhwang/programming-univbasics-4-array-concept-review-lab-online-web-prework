@@ -19,6 +19,7 @@ def find_max_value(array)
       curr_max = array[index]
     end
   end
+  return curr_max
 end
 
 
